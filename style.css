@@ -1,0 +1,53 @@
+
+/* NeveigationMenu start hear */
+.menu {
+    background-color: cadetblue;
+    display: flex;
+    justify-content: flex-end;
+  }
+  .menu a {
+    text-decoration: none;
+    padding: 20px;
+    color: white;
+  }
+  .menu a:hover {
+    background-color: gray;
+  }
+  @media screen and (max-width: 600px) {
+    .menu {
+      flex-direction: column;
+      padding: 10px;
+       border-radius: 10px;
+    }
+    .menu a {
+      background-color: rgb(137, 0, 235);
+      margin: 10px 0;
+      text-align: center;
+      border-radius: 10px;
+    }
+  }
+  /* NeveigationMenu ends hear */
+
+  /* ResponsiveColumnsDesign start hear */
+  *{
+    box-sizing: border-box; 
+    background-color: aqua;
+}
+.column{
+    float: left;
+    width: 25%;
+    padding: 10px;
+}   
+@media screen and (max-width:992px) {
+.column{
+    float: left;
+    width: 50%;
+}
+}
+@media screen and (max-width:600px) {
+.column{
+   
+    width: 100%;
+}
+}
+/* ResponsiveColumnsDesign ends hear */
